@@ -11,14 +11,14 @@ You need to come up with a JSON structure and build a react project which includ
 * Input
 * Dropdown
 * Text
+* Textarea
+* Textfield
+* Image
 * Container (Container component might include other components or another container inside of it)
-* etc.
-
-
 
 # JSON structure
-* I should be able to pass style to every component from JSON.
-* I should be able to pass component attributes from JSON (ex: href, src).
+* I should be able to pass style to every component from JSON. ✅
+* I should be able to pass component attributes from JSON (ex: href, src). ✅
 * etc.
 
 # Example
@@ -26,6 +26,10 @@ You need to come up with a JSON structure and build a react project which includ
 
 # Result
 This task is a little bit ambiguous and we want to know how you would do this. Feel free to use any global state management like redux or context.
+* Setup a basic structure from where we can add new comonents to the base and keep rendering them
+* This only supports components listed above
+* The beauty of component is decided based on the css input so that's a good thing.
+* I created a base setup which extensible from here with the given time restriction.
 
 # Screenshot
-![UI](ui.jpg "UI")
+Added to the test_output.png file below
